@@ -5,6 +5,7 @@
   - <img src="https://github.com/user-attachments/assets/79225700-e982-4ec8-890f-7d925fda2f6d" width="250">
 - At tablet and small laptop screen sizes (lg breakpoint - 1024 up to 1280), each of the sections shrinks to the available width except for the education and experience section which is allowed to have visible x overflow. This creates some obvious horizontal scroll, but also introduces some less obvious scroll in your <aside> after scrolling to the very bottom of the page because it is set to h-screen but doesn't account for the horz scrollbar. This breaks a whole lot of things like scroll jumping when tabbing thru the footer while not scrolled all the way down ([video demo](https://www.loom.com/share/c045252ec1f94783933b8e9e3be7d0be)). Looks-wise, it breaks the clean look of the about me & experience divider lines
 - <aside> elements are usually used to indicate standalone information that is just loosely related to the main content, but you have your <nav> element directly tied to the main content nested in the aside which seems odd
+- It's usually better in portfolio-type sites to group forms of contact so that users don't have to scan multiple areas. You've got github and linked in separated from email here. An example of what they might look like together is in the bottom images
 
 # Design Thoughts
 Your portfolio is clearly trying to mimic a resume, which is great. However, I think that you have a unique opportunity to go against the grain a bit with ordering here. This is the core timeline of the webpage currently: 
