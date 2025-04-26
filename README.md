@@ -1,6 +1,7 @@
 # Accessibility
 - Your foreground-silent color misses all contrast accessibility checks https://webaim.org/resources/contrastchecker/?fcolor=525252&bcolor=030608
 - Your main foreground color is fine, but you might consider making it a bit less striking to reduce dark mode burn-in and eye strain for dense text blocks like your name and the section headers
+- Your about me section looks ncie with the full justification on either side but you can make the text a bit cleaner by using the `hyphens-auto` tailwind utility
 - At tablet and small laptop screen sizes (lg breakpoint - 1024 up to 1280), each of the sections shrinks to the available width except for the education and experience section which is allowed to have visible x overflow. This creates some obvious horizontal scroll, but also introduces some less obvious scroll in your <aside> after scrolling to the very bottom of the page because it is set to h-screen but doesn't account for the horz scrollbar. This breaks a whole lot of things like scroll jumping when tabbing thru the footer while not scrolled all the way down. Looks-wise, it breaks the clean look of the about me & experience divider lines. https://www.loom.com/share/c045252ec1f94783933b8e9e3be7d0be
 - <aside> elements are usually used to indicate standalone information that is just loosely related to the main content, but you have your <nav> element directly tied to the main content nested in the aside which seems odd
 
@@ -9,6 +10,8 @@ Your portfolio is clearly trying to mimic a resume, which is great. However, I t
 - About Me: Chronological
 - Education & Experience: Reverse Chronological (resume standard)
 - Other items: Mixed
+
+At their core, the information you provide in the about me, project, and achievements sections are also timeline-able events. I think that you can make this feel like a very purposeful and personable scrolling experience by mixing the events together at their relevant times told in pure chronological order - opening with a short blurb about what got you into games and leading straight into your secondary education as the first timeline event. Then you'd move on to a bit more connecting exposé that gives context for your Technical Artist timeline event at Molekül. Then perhaps some exposé leading into a project or achievement timeline event. So on and so forth. As a really nice design flare (and to lean into the scroll progress trend that is common nowadays) you could make your green "I am here" dot a fixed "We are here" dot that stays with the user's scroll context. It could be very beautiful - a colleague of mine from Cognizant just implemented what I think is the most beautiful version of this I've ever seen in the desktop view, but you can check out his mobile view for a marker that would be more achievable here: https://www.braydoncoyer.dev/about
 
 There are also some things you could do to bolster the depth of your projects info. For example, including dates worked on would add some nice insight, and if you're feeling frisky you could throw in your repo participation sparklines
 https://github.com/yiliansource/csp-solvers/graphs/participation?h=28&type=sparkline&w=155
