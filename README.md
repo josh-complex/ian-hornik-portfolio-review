@@ -1,8 +1,8 @@
 # Accessibility
-- Your foreground-silent color misses all contrast accessibility checks https://webaim.org/resources/contrastchecker/?fcolor=525252&bcolor=030608
+- Your foreground-silent color misses all contrast [accessibility checks](https://webaim.org/resources/contrastchecker/?fcolor=525252&bcolor=030608)
 - Your main foreground color is fine, but you might consider making it a bit less striking to reduce dark mode burn-in and eye strain for dense text blocks like your name and the section headers
 - Your about me section looks ncie with the full justification on either side but you can make the text a bit cleaner by using the `hyphens-auto` tailwind utility
-- At tablet and small laptop screen sizes (lg breakpoint - 1024 up to 1280), each of the sections shrinks to the available width except for the education and experience section which is allowed to have visible x overflow. This creates some obvious horizontal scroll, but also introduces some less obvious scroll in your <aside> after scrolling to the very bottom of the page because it is set to h-screen but doesn't account for the horz scrollbar. This breaks a whole lot of things like scroll jumping when tabbing thru the footer while not scrolled all the way down. Looks-wise, it breaks the clean look of the about me & experience divider lines. https://www.loom.com/share/c045252ec1f94783933b8e9e3be7d0be
+- At tablet and small laptop screen sizes (lg breakpoint - 1024 up to 1280), each of the sections shrinks to the available width except for the education and experience section which is allowed to have visible x overflow. This creates some obvious horizontal scroll, but also introduces some less obvious scroll in your <aside> after scrolling to the very bottom of the page because it is set to h-screen but doesn't account for the horz scrollbar. This breaks a whole lot of things like scroll jumping when tabbing thru the footer while not scrolled all the way down ([video demo](https://www.loom.com/share/c045252ec1f94783933b8e9e3be7d0be)). Looks-wise, it breaks the clean look of the about me & experience divider lines.
 - <aside> elements are usually used to indicate standalone information that is just loosely related to the main content, but you have your <nav> element directly tied to the main content nested in the aside which seems odd
 
 # Design Thoughts
@@ -15,7 +15,7 @@ At their core, the information you provide in the about me, project, and achieve
 
 There are also some things you could do to bolster the depth of your projects info. For example, including dates worked on would add some nice insight, and if you're feeling frisky you could throw in your repo participation sparklines
 
-https://github.com/yiliansource/csp-solvers/graphs/participation?h=28&type=sparkline&w=155
+[Your csp-solvers sparkline](https://github.com/yiliansource/csp-solvers/graphs/participation?h=28&type=sparkline&w=155)
 
 ![image](https://github.com/user-attachments/assets/6971ad3b-bec9-4c7c-a727-cef484a61e37)
 
