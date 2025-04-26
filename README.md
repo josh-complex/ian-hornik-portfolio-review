@@ -10,6 +10,11 @@ Your portfolio is clearly trying to mimic a resume, which is great. However, I t
 - Education & Experience: Reverse Chronological (resume standard)
 - Other items: Mixed
 
+There are also some things you could do to bolster the depth of your projects info. For example, including dates worked on would add some nice insight, and if you're feeling frisky you could throw in your repo participation sparklines
+https://github.com/yiliansource/csp-solvers/graphs/participation?h=28&type=sparkline&w=155
+![image](https://github.com/user-attachments/assets/6971ad3b-bec9-4c7c-a727-cef484a61e37)
+
+
 ---------------------------------------------------------------------------------
 On a personal note, I was playing around with your site for about an hour while making this review and I came up with a slightly modified layout that removes the navigation items in favor of leaning into the negative space with a solo section headline as the app header. This comes with an obvious accessibility tradeoff where users can't click to jump to a section. You have a relatively short scroll context so this isn't a huge concern, but we can bake that accessibility back in by having the <nav> element be absolutely positioned and hidden unless one of its children is focused so users can still use keyboard control and forward hashlinks to your sections. Might not be to your liking but I thought it looked pretty neet other than the odd grouping of achievements and artwork; I would have made a nice divider and used trophy icons instead of traditional bullets since it didn't have a related headline anymore. Shown in images instead of video because I don't have state management to update the headline text haha.
 ![Screenshot 2025-04-26 001527](https://github.com/user-attachments/assets/1accb584-0fce-4cb2-aa41-55b304181b4e)
