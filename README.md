@@ -14,7 +14,9 @@ Your portfolio is clearly trying to mimic a resume, which is great. However, I t
 At their core, the information you provide in the about me, project, and achievements sections are also timeline-able events. I think that you can make this feel like a very purposeful and personable scrolling experience by mixing the events together at their relevant times told in pure chronological order - opening with a short blurb about what got you into games and leading straight into your secondary education as the first timeline event. Then you'd move on to a bit more connecting exposé that gives context for your Technical Artist timeline event at Molekül. Then perhaps some exposé leading into a project or achievement timeline event. So on and so forth. As a really nice design flare (and to lean into the scroll progress trend that is common nowadays) you could make your green "I am here" dot a fixed "We are here" dot that stays with the user's scroll context. It could be very beautiful - a colleague of mine from Cognizant just implemented what I think is the most beautiful version of this I've ever seen in the desktop view, but you can check out his mobile view for a marker that would be more achievable here: https://www.braydoncoyer.dev/about
 
 There are also some things you could do to bolster the depth of your projects info. For example, including dates worked on would add some nice insight, and if you're feeling frisky you could throw in your repo participation sparklines
+
 https://github.com/yiliansource/csp-solvers/graphs/participation?h=28&type=sparkline&w=155
+
 ![image](https://github.com/user-attachments/assets/6971ad3b-bec9-4c7c-a727-cef484a61e37)
 
 
